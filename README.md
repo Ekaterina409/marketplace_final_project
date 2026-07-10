@@ -77,7 +77,7 @@ pip install -r requirements.txt
 
 3. Power BI дашборд
 Файл Дипломная.pbix слишком большой (360 MB) для GitHub.
-Скачать дашборд: https://drive.google.com/drive/folders/1E6T3oJVraSNzsSIQ0uOiAzgGYSEcYwrQ
+Скачать дашборд: https://drive.google.com/file/d/1iSTI1sVS8HGBtdaySkF81O06RMxcO-Px/view?usp=sharing
 Как открыть:
 Установи Power BI Desktop (бесплатно)
 Открой файл Дипломная.pbix
