@@ -12,8 +12,23 @@
 Технологический стек
 Инструмент Назначение PostgreSQL Хранение и обработка данных Python (pandas, matplotlib Предварительный EDA в Jupyter Notebooks SQL Аналитические запросы (оконные функции, агрегации, CTE) Power BI Финальная визуализация и интерактивный дашборд Git/GitHub Контроль версий и документирование проекта
 
-📁 Структура репозитория
-marketplace_final_project/ ├── config/ # Настройки подключения к БД (settings.py, .env) ├── docker/ # Docker-конфигурация для PostgreSQL ├── notebooks/ # Jupyter-ноутбуки с EDA │ ├── 01_api_exploration.ipynb │ ├── 02_assortment_analysis.ipynb │ └── 03_customer_ltv_analysis.ipynb ├── scripts/ # Python-скрипты для сбора данных │ ├── fetch_api.py │ ├── fetch_history.py │ └── utils.py ├── sql/queries/ # Аналитические SQL-запросы │ ├── abc_xyz_analysis.sql │ ├── cohort_retention.sql │ ├── rfm_segmentation.sql │ ├── powerbi_dashboard_queries.sql │ └── schema.sql ├── screenshots/ # Скриншоты дашбордов │ ├── dashboard_operational.png │ └── dashboard_insights.png ├── dashboard.pbix # Файл Power BI (см. ссылку ниже) ├── .gitignore ├── README.md └── requirements.txt
+## Структура репозитория
+
+```
+marketplace_final_project/
+├── config/ # Настройки подключения к БД
+├── docker/ # Docker-конфигурация для PostgreSQL
+├── notebooks/ # Jupyter-ноутбуки с EDA
+│   ├── 01_api_exploration.ipynb
+│   ├── 02_assortment_analysis.ipynb
+│   └── 03_customer_ltv_analysis.ipynb
+├── scripts/ # Python-скрипты для сбора данных
+── sql/queries/ # Аналитические SQL-запросы
+├── screenshots/ # Скриншоты дашбордов
+├── .gitignore
+├── README.md
+── requirements.txt
+```
 
 Как запустить проект
 1. База данных
