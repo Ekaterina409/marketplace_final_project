@@ -51,6 +51,16 @@ source venv/bin/activate  # Mac/Linux
 # Установи зависимости
 pip install -r requirements.txt
 
+### Пример лог-файла:
+[2026-07-13 10:15:23] INFO: Started data collection for date: 2026-07-12
+[2026-07-13 10:15:24] INFO: Fetching orders from API...
+[2026-07-13 10:15:28] INFO: Received 1,247 orders
+[2026-07-13 10:15:29] INFO: Fetching clients data...
+[2026-07-13 10:15:31] INFO: Received 856 clients
+[2026-07-13 10:15:32] INFO: Data saved to database
+[2026-07-13 10:15:32] INFO: Collection completed for 2026-07-12
+[2026-07-13 10:15:32] INFO: Total records: 2,103
+[2026-07-13 10:15:32] INFO: Execution time: 9.2 seconds
 
 3. Power BI дашборд
 Файл Дипломная.pbix слишком большой (360 MB) для GitHub.
