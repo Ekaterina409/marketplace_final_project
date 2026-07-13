@@ -1,59 +1,24 @@
-# Аналитика маркетплейса: от SQL до Power BI
+Аналитика маркетплейса: от SQL до Power BI
+Дипломный проект по анализу данных e-commerce платформы
+Автор: Екатерина
+Дата: Июль 2026
 
-> Дипломный проект по анализу данных e-commerce платформы  
-> **Автор:** Екатерина  
-> **Дата:** Июль 2026
-
-## Цель проекта
-
+Цель проекта
 Создание системы мониторинга ключевых метрик (KPI) и проведение глубокого исследования эффективности бизнеса:
-1. **Операционный дашборд** — мониторинг продаж в реальном времени
-2. **Оптимизация ассортиментной матрицы** — ABC-анализ, поиск неликвида
-3. **Повышение LTV клиентской базы** — RFM-сегментация, анализ оттока
 
-## Технологический стек
+Операционный дашборд — мониторинг продаж в реальном времени
+Оптимизация ассортиментной матрицы — ABC-анализ, поиск неликвида
+Повышение LTV клиентской базы — RFM-сегментация, анализ оттока
+Технологический стек
+Инструмент Назначение PostgreSQL Хранение и обработка данных Python (pandas, matplotlib Предварительный EDA в Jupyter Notebooks SQL Аналитические запросы (оконные функции, агрегации, CTE) Power BI Финальная визуализация и интерактивный дашборд Git/GitHub Контроль версий и документирование проекта
 
-Инструмент	Назначение
-PostgreSQL	Хранение и обработка данных 
-Python (pandas, matplotlib	Предварительный EDA в Jupyter Notebooks
-SQL	Аналитические запросы (оконные функции, агрегации, CTE)
-Power BI	Финальная визуализация и интерактивный дашборд
-Git/GitHub	Контроль версий и документирование проекта
+📁 Структура репозитория
+marketplace_final_project/ ├── config/ # Настройки подключения к БД (settings.py, .env) ├── docker/ # Docker-конфигурация для PostgreSQL ├── notebooks/ # Jupyter-ноутбуки с EDA │ ├── 01_api_exploration.ipynb │ ├── 02_assortment_analysis.ipynb │ └── 03_customer_ltv_analysis.ipynb ├── scripts/ # Python-скрипты для сбора данных │ ├── fetch_api.py │ ├── fetch_history.py │ └── utils.py ├── sql/queries/ # Аналитические SQL-запросы │ ├── abc_xyz_analysis.sql │ ├── cohort_retention.sql │ ├── rfm_segmentation.sql │ ├── powerbi_dashboard_queries.sql │ └── schema.sql ├── screenshots/ # Скриншоты дашбордов │ ├── dashboard_operational.png │ └── dashboard_insights.png ├── dashboard.pbix # Файл Power BI (см. ссылку ниже) ├── .gitignore ├── README.md └── requirements.txt
 
+Как запустить проект
+1. База данных
+Вариант A: Через Docker
 
-## 📁 Структура репозитория
-marketplace_final_project/
-├── config/ # Настройки подключения к БД (settings.py, .env)
-├── docker/ # Docker-конфигурация для PostgreSQL
-├── notebooks/ # Jupyter-ноутбуки с EDA
-│ ├── 01_api_exploration.ipynb
-│ ├── 02_assortment_analysis.ipynb
-│ └── 03_customer_ltv_analysis.ipynb
-├── scripts/ # Python-скрипты для сбора данных
-│ ├── fetch_api.py
-│ ├── fetch_history.py
-│ └── utils.py
-├── sql/queries/ # Аналитические SQL-запросы
-│ ├── abc_xyz_analysis.sql
-│ ├── cohort_retention.sql
-│ ├── rfm_segmentation.sql
-│ ├── powerbi_dashboard_queries.sql
-│ └── schema.sql
-├── screenshots/ # Скриншоты дашбордов
-│ ├── dashboard_operational.png
-│ └── dashboard_insights.png
-├── dashboard.pbix # Файл Power BI (см. ссылку ниже)
-├── .gitignore
-├── README.md
-└── requirements.txt
-
-
-##  Как запустить проект
-
-### 1. База данных
-
-**Вариант A: Через Docker**
-```bash
 cd docker
 docker-compose up -d
 
@@ -170,8 +135,6 @@ Scatter Plot "Частота покупок vs Сумма покупок (LTV)"
 Екатерина
 📧 Email: kirill.bk.2006@email.ru
 💬 Telegram: @OsadchayEkaterina
-<<<<<<< HEAD
-=======
 
 
 
@@ -199,7 +162,6 @@ Scatter Plot "Частота покупок vs Сумма покупок (LTV)"
 
 
 
->>>>>>> 9ac2bd6 (Local changes before sync)
 
 
 
