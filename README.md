@@ -170,6 +170,36 @@ Scatter Plot "Частота покупок vs Сумма покупок (LTV)"
 Екатерина
 📧 Email: kirill.bk.2006@email.ru
 💬 Telegram: @OsadchayEkaterina
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 9ac2bd6 (Local changes before sync)
 
 
 
